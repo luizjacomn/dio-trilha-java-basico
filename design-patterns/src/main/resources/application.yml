@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: design-patterns
+
+via-cep:
+  url: https://viacep.com.br/ws
+
+print-cache: true
