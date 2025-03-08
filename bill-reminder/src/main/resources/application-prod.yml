@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
+    driver-class-name: org.postgresql.Driver
+    username: ${PGUSER}
+    password: ${PGPASSWORD}
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+    open-in-view: false
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: validate # Hibernate DDL auto (update tables if needed)
