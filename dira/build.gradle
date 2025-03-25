@@ -1,0 +1,33 @@
+import org.gradle.jvm.toolchain.JavaLanguageVersion
+
+plugins {
+    id 'java'
+}
+
+group = 'com.luizjacomn'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation('org.liquibase:liquibase-core:4.29.1')
+    implementation('mysql:mysql-connector-java:8.0.33')
+
+    compileOnly 'org.projectlombok:lombok:1.18.36'
+    annotationProcessor 'org.projectlombok:lombok:1.18.36'
+
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
