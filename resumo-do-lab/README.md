@@ -19,3 +19,13 @@ O SLA refere-se a métrica de indisponibilidade permitida em contrato. Dessa for
 
 ## Escalabilidade
 A escalabilidade é um termo muito importante no mundo cloud, pois é um dos mais notórios benefícios para a sua adoção. A possibilidade de aumentar/diminuir os recursos conforme a demanda é, sem dúvidas, um atrativo para esse modelo, tendo em vista que torna os custos mais previsíveis e mensuráveis.
+
+## Modelos de Serviço
+# IaaS
+Esse modelo o provedor disponibiliza uma estrutura básica para que o usuário (cliente) seja o responsável pelo gerenciamento de recursos e serviços ao quais ele venha a necessitar. Basicamente são disponíveis estruturas físicas para o cliente.
+
+# PaaS
+Esse modelo oferece uma gestão compartilhada entre provedor e cliente. Isso facilita muitas situações para o usuário pois oferece um nível de configurações menor. Aqui entra em ação um sistema operacional que faz com que esse modelo seja mais "fácil" de gerenciar pelo usuário.
+
+# SaaS
+Já para esse modelo, o provedor entra com a maior parte dos serviços gerenciados, facilitando ainda mais o gerenciamento por parte do usuário. Isso porque com esse nível, basicamente o usuário foca mais nas configurações voltadas ao seu negócio.
