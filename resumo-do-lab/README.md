@@ -29,3 +29,27 @@ Esse modelo oferece uma gestão compartilhada entre provedor e cliente. Isso fac
 
 ### SaaS
 Já para esse modelo, o provedor entra com a maior parte dos serviços gerenciados, facilitando ainda mais o gerenciamento por parte do usuário. Isso porque com esse nível, basicamente o usuário foca mais nas configurações voltadas ao seu negócio.
+
+## Regiões
+As regiões são compostas de um ou mais datacenters muito próximos. Elas fornecem flexibilidade e escala para reduzir a latência do cliente. As regiões preservam a residência dos dados com uma oferta abrangente de conformidade.
+
+## Zonas de disponibilidade
+Fornece proteção contra tempo de inatividade devido a falha do datacenter. Separa fisicamente os datacenters dentro da mesma região. Cada datacenter é equipado com alimentação, resfriamento e rede independentes. São conectadas por meio de redes privadas de fibra óptica.
+
+## Pares de região
+No mínimo 300 milhas de separação entre pares de regiões. Replicação automática para alguns serviços. Recuperação de região priorizada em caso de interrupção.
+
+![image](https://github.com/user-attachments/assets/b0847984-f5c3-42c2-985b-6c605135c0bc)
+
+https://aka.ms/PairedRegions-ptb
+
+## Recursos
+![image](https://github.com/user-attachments/assets/67d969e4-5236-45ba-9349-d25404a24dfc)
+
+## Assinaturas
+![image](https://github.com/user-attachments/assets/3b94ce64-cd8d-49a9-a72c-50bcdc5ee95f)
+
+## Grupos de gerenciamento
+![image](https://github.com/user-attachments/assets/93c68164-e5ae-49bd-b464-4d4ea6690bf0)
+
+Os grupos de gerenciamento podem incluir várias assinaturas do Azure. As assinaturas herdam as condições aplicadas ao grupo de gerenciamento.
