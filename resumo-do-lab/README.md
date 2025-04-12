@@ -58,3 +58,11 @@ Os grupos de gerenciamento podem incluir várias assinaturas do Azure. As assina
 O Azure Language Studio é uma plataforma da Microsoft que permite trabalhar com IA focada em linguagem. Ele ajuda a criar aplicativos que entendem e processam o que as pessoas dizem, escrevem ou procuram. É tudo bem visual e intuitivo, o que facilita a vida de quem quer usar as tecnologias de IA sem precisar ser um especialista em programação.
 O legal é que você pode criar coisas como bots de atendimento ao cliente, sistemas de análise de texto e até mesmo aplicativos que traduzem ou resumem textos automaticamente. Dá para conectar esses recursos ao que você já usa, como sites ou apps. Além disso, o ALS tem suporte a vários idiomas e pode ser ajustado para atender às suas necessidades específicas.
 Também é possível experimentar e testar as ferramentas ali mesmo no ambiente do ALS, tornando-se ideal para explorar as possibilidades da IA de linguagem com bem menos complexidade do que aparenta ser.
+
+# Azure Cognitive Search
+É o serviço de mineração de conhecimento alimentada por IA. Ingestão de dados:
+- Azure Blob Storage containers
+- Azure Data Lake Storage gen2
+- Azure Table Storage
+
+## Enriquecimento e indexação
