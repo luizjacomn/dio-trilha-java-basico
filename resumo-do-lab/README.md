@@ -66,3 +66,14 @@ Também é possível experimentar e testar as ferramentas ali mesmo no ambiente 
 - Azure Table Storage
 
 ## Enriquecimento e indexação
+
+# IAs Generativas
+## LLMs
+São modelos de larga escala que fornecem o "conhecimento" necessário para que os modelos mais específicos consigam cumprir suas tarefas.
+Existem alguns tipos de LLMs, como:
+- Transformador
+- Atenção
+- inserção
+- Copiloto
+
+*Importante:* Cada modelo possui uma forma de alimentar o contexto e gerar conhecimento para a execução das tarefas.
